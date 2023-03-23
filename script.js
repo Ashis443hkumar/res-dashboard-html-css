@@ -1,5 +1,14 @@
 // SIDEBAR TOGGLE
 
+const divContainer = document.querySelector('#elementTogglebutton');
+
+let showOrHide =()=>{
+  divContainer.style.display = 'block'
+}
+
+// function showOrHide(){
+//   divContainer.style.display = 'block'
+// }
 
 var sidebarOpen = false;
 var sidebar = document.getElementById("sidebar");
